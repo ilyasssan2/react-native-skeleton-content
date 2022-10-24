@@ -2,11 +2,7 @@ import * as React from 'react';
 import { LayoutChangeEvent, StyleSheet, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, { interpolateNode } from 'react-native-reanimated';
-import {
-  interpolateColor,
-  loop,
-  useValue,
-} from 'react-native-redash/lib/module/v1';
+import { interpolateColor, loop, useValue } from './redash';
 import {
   ICustomViewStyle,
   DEFAULT_ANIMATION_DIRECTION,
